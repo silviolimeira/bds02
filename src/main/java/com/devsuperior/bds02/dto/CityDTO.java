@@ -6,10 +6,10 @@ import com.devsuperior.bds02.entities.City;
 
 public class CityDTO implements Serializable {
 	private static final long serialVersionUID = 1L;
-	
+
 	private Long id;
 	private String name;
-	
+
 	public CityDTO() {
 	}
 
@@ -17,7 +17,7 @@ public class CityDTO implements Serializable {
 		this.id = id;
 		this.name = name;
 	}
-	
+
 	public CityDTO(City entity) {
 		id = entity.getId();
 		name = entity.getName();
